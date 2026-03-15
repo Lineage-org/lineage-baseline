@@ -1,7 +1,7 @@
 {
   description = "Lineage baseline - organization-wide CI governance and policy enforcement";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/aca4d95fce4914b3892661bcb80b8087293536c6";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/c06b4ae3d6599a672a6210b7021d699c351eebda";
 
   outputs = { self, nixpkgs }:
     let
