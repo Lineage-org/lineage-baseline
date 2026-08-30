@@ -2,7 +2,7 @@
   description = "Lineage consumer repository with TOML configuration and external pack support";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/2c423e03bbafcff28bfadc6781a4a8257f205cb5";
+    nixpkgs.url = "github:NixOS/nixpkgs/83199d0d373dd3ac2b9a1996b1d0263f76ab7a4c";
     lineage-baseline = {
       url = "github:Lineage-org/lineage-baseline?ref=stable";
       inputs.nixpkgs.follows = "nixpkgs";
